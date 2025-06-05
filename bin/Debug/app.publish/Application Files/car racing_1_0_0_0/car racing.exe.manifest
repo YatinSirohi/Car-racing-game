@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="car racing.exe" version="1.0.0.0" publicKeyToken="d63f26b22365a684" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="car racing" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="car racing.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="car racing.exe" size="432024">
+      <assemblyIdentity name="car racing" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lBW+fG6NbStYcCqJ47h3v/cUAU+AAdlXp7SrF9TM518=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="car racing.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=NIT\yatin" issuerKeyHash="476df273e76594a1d82ce68dde39fbc324111d00" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>EkRbCu1GqNEmbpqxyIiv6w11I+T3DFiI8/yFZMrkhNE=</DigestValue></Reference></SignedInfo><SignatureValue>o6QbbCXeVeb2gqY/TtTtYKE/9tF/3jrbKlqjdUD93cz93f0Wrt1MkhZCzeSU0IujFD2CPinPegKmIbKDmLScauR52M+GDX3kaZmJ8tBUIXD5MRnw5Qhm7WgRLdHP4pZLxaFEjBjTi+HZyMX1hnETpyyXhrKLwWXj8mipsRlnSeI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ydGitUWhgtkY4XGUGpIPuZxGHjLxPzvWuS+mZM/yiAAew9PsAAWXf8Qi3QtjCk36Rupq5kaxH1sgNza7RM1qXfxd9OqcRbILbkQ0T3hhRqX2txhPI9FTqYBWUgYQfA90tOO+zOmotXpR7SP3V16cufpxz3e4XqNUVzaKK8chsxU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d184e4ca6485fcf388580cf7e423750debaf88c8b19a6e26d1a846ed0a5b4412" Description="" Url=""><as:assemblyIdentity name="car racing.exe" version="1.0.0.0" publicKeyToken="d63f26b22365a684" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NIT\yatin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wKYiC0GaK5w8ydaDGbMQPw1mTHGWR1q2xOZSpjpLU0U=</DigestValue></Reference></SignedInfo><SignatureValue>mqzCJqoPqfrGG+DFw5tkI+Uyt7kmy1LWOeqrd+IrhpHnOs8+5AT/pyEreBg52XYAkcjkhuunVGFBu/HDN9pbLA3I0BjrmSc46RYuo2r/loBrVg408jpP4HgU320pEKUDJY6sK2G6fVWDy9O1d05paX5JNmvfoyqkJQRfbjLJiUY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ydGitUWhgtkY4XGUGpIPuZxGHjLxPzvWuS+mZM/yiAAew9PsAAWXf8Qi3QtjCk36Rupq5kaxH1sgNza7RM1qXfxd9OqcRbILbkQ0T3hhRqX2txhPI9FTqYBWUgYQfA90tOO+zOmotXpR7SP3V16cufpxz3e4XqNUVzaKK8chsxU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQVCqLaHPhl7FPpP7nsZqzijANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIATgBJAFQAXAB5AGEAdABpAG4wHhcNMjUwNjA1MDcyNTMyWhcNMjYwNjA1MTMyNTMyWjAdMRswGQYDVQQDHhIATgBJAFQAXAB5AGEAdABpAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMnRorVFoYLZGOFxlBqSD7mcRh4y8T871rkvpmTP8ogAHsPT7AAFl3/EIt0LYwpN+kbqauZGsR9bIDc2u0TNal38XfTqnEWyC25ENE94YUal9rcYTyPRU6mAVlIGEHwPdLTjvszpqLV6Ue0j91denLn6cc93uF6jVFc2iivHIbMVAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAC20OT2/PNtQFaWG0sb6a0inA+sreozSTXd1sG2FgIF9McHiG7t0X5b4Zfupi0ruBRnWbzLOBKg0SqHX1wA/8vhyyjkw8HtO1PD/xyCdtLfLbOOK34yZbzX/nDBLU+FpKvXdG4zaOqhGgaW2w62h+2pOq9i8S/g4Q0NZyxc717eQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

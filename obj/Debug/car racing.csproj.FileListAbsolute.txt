@@ -1,0 +1,15 @@
+C:\Users\yatin\source\repos\car racing\car racing\bin\Debug\car racing.exe.config
+C:\Users\yatin\source\repos\car racing\car racing\bin\Debug\car racing.exe
+C:\Users\yatin\source\repos\car racing\car racing\bin\Debug\car racing.pdb
+C:\Users\yatin\source\repos\car racing\car racing\obj\Debug\car racing.csproj.AssemblyReference.cache
+C:\Users\yatin\source\repos\car racing\car racing\obj\Debug\car_racing.Form1.resources
+C:\Users\yatin\source\repos\car racing\car racing\obj\Debug\car_racing.Properties.Resources.resources
+C:\Users\yatin\source\repos\car racing\car racing\obj\Debug\car racing.csproj.GenerateResource.cache
+C:\Users\yatin\source\repos\car racing\car racing\obj\Debug\car racing.csproj.CoreCompileInputs.cache
+C:\Users\yatin\source\repos\car racing\car racing\obj\Debug\car racing.exe
+C:\Users\yatin\source\repos\car racing\car racing\obj\Debug\car racing.pdb
+C:\Users\yatin\source\repos\car racing\car racing\obj\Debug\car racing.exe.config
+C:\Users\yatin\source\repos\car racing\car racing\bin\Debug\car racing.exe.manifest
+C:\Users\yatin\source\repos\car racing\car racing\bin\Debug\car racing.application
+C:\Users\yatin\source\repos\car racing\car racing\obj\Debug\car racing.exe.manifest
+C:\Users\yatin\source\repos\car racing\car racing\obj\Debug\car racing.application
